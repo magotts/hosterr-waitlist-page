@@ -2,13 +2,61 @@
 
 :root {
   --bg-color: rgb(241, 241, 216);
+  --btn-color: #4977ea;
+  --grey-text: #525252;
 }
 
 body {
   background-color: var(--bg-color);
+  font-family: 'Lato', sans-serif;
+
 }
 
 .container {
   margin: 40px 80px;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 1em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.btn-hiring {
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 5px 10px;
+  background: linear-gradient(90deg, rgba(234,172,83,1) 0%, rgba(234,123,102,1) 35%, rgba(234,88,114,1) 92%, rgba(234,88,114,1) 99%, rgba(234,88,114,1) 100%);
+}
+
+.btn-join {
+  background-color: var(--btn-color);
+  cursor: pointer;
+  color: white;
+  padding: 1em;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+main {
+  display: flex;
+}
