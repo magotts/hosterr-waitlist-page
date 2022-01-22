@@ -66,6 +66,12 @@ main .left {
   flex-direction: column;
   gap: 1em;
   width: 50%;
+  justify-content: center;
+}
+
+main .left .unsubscribe-note {
+  display: flex;
+  gap:1em;
 }
 
 main .right {
@@ -79,7 +85,7 @@ main .right img {
 
 .right{
   position: relative;
-  
+ 
 }
 
 .right .blue, .right .pink, .right .purple, .right .model {
@@ -104,3 +110,14 @@ main .right img {
 .right .model {
   z-index: 4;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .any-questions {
+  display: flex;
+}
+
