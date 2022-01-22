@@ -60,3 +60,47 @@ a {
 main {
   display: flex;
 }
+
+main .left {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 50%;
+}
+
+main .right {
+  width: 400px;
+  justify-self: flex-end;
+}
+
+main .right img {
+  width: 100%;
+}
+
+.right{
+  position: relative;
+  
+}
+
+.right .blue, .right .pink, .right .purple, .right .model {
+  position: absolute;
+}
+
+.right .blue {
+  z-index: 1;
+  transform: rotate(-45deg);
+}
+
+.right .pink {
+  z-index: 2;
+  transform: rotate(-35deg);
+}
+
+.right .purple {
+  z-index: 3;
+  transform: rotate(-20deg);
+}
+
+.right .model {
+  z-index: 4;
+}
