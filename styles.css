@@ -13,13 +13,14 @@ body {
 }
 
 .container {
-  margin: 40px 80px;
+  padding: 3em 15em;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 1.2rem;
 }
 
 .logo {
@@ -72,8 +73,12 @@ main .left {
   justify-content: center;
 }
 
+main .left p {
+  width: 75%;
+}
+
 h2 {
-  font-family: "Playfair";
+  font-family: "Playfair Display";
   font-size: 3rem;
 
 }
@@ -130,10 +135,24 @@ footer {
 footer ul {
   padding: 0;
 }
-footer .any-questions {
+
+ .any-questions {
   display: flex;
+  
 }
 
-footer .any-questions p {
-  font-family: "Playfair";
+.any-questions p {
+  font-family: "Playfair Display";
+  padding: 0;
+}
+
+footer .help-text p {
+  margin: 0;
+  margin-left: 0.5em;
+  margin-top: 0.4em;
+}
+
+footer .help-text h3 {
+  margin: 0;
+  margin-left: 0.5em;
 }
