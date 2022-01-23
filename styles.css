@@ -68,8 +68,6 @@ main .left {
   display: flex;
   flex-direction: column;
   gap: 1em;
-
-  max-width: 450px; 
   justify-content: center;
 }
 
@@ -80,7 +78,6 @@ main .left p {
 h2 {
   font-family: "Playfair Display";
   font-size: 3rem;
-
 }
 
 main .left .unsubscribe-note {
@@ -89,13 +86,12 @@ main .left .unsubscribe-note {
 }
 
 main .right {
-  width: 400px;
-
+  width: 585px;
   margin-left: 6em;
 }
 
 main .right img {
-  width: 80%;
+  max-width: 352px;
 }
 
 .right{
